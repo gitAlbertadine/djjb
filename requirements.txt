@@ -1,0 +1,12 @@
+asgiref        3.3.4  ASGI specs, helper code, and adapters
+attrs          20.3.0 Classes Without Boilerplate
+django         3.2    A high-level Python Web framework that encourages rapid devel...
+more-itertools 8.7.0  More routines for operating on iterables, beyond itertools
+packaging      20.9   Core utilities for Python packages
+pluggy         0.13.1 plugin and hook calling mechanisms for python
+py             1.10.0 library with cross-python path, ini-parsing, io, code, log fa...
+pyparsing      2.4.7  Python parsing module
+pytest         5.4.3  pytest: simple powerful testing with Python
+pytz           2021.1 World timezone definitions, modern and historical
+sqlparse       0.4.1  A non-validating SQL parser.
+wcwidth        0.2.5  Measures the displayed width of unicode strings in a terminal
