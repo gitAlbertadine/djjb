@@ -13,6 +13,13 @@ from .models import Job
 #    return render(request,'job/job_detail.html',context)
 class JobList(ListView): 
     model = Job
+    #context_object_name = 'jobs'
+    def get_queryset(self):
+        return Job.objects.filter(active=False)
+    def get_context_data(self,**kwargs):
+        context = super().get_context_data(**kwargs)
+        context['myname'] = 'Said ed drief'
+        return context
 class JobDetail(DetailView):
     model = Job
 class JobCreate():

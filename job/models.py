@@ -15,6 +15,7 @@ class Job(models.Model): #table
     salary=models.IntegerField(default=0)
     experience=models.IntegerField(default=1)
     category=models.ForeignKey('Category',on_delete=models.CASCADE)
+    active=models.BooleanField(default=False)
     def __str__(self):
         return self.title
 class Category(models.Model): 
